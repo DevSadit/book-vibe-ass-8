@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/xsR3c7V/frank-from-5-am-ramen-f-HSTIBef-NXQ-unsplash-removebg-preview.png",
+    "review": "A timeless classic that explores themes of racial injustice, morality, and compassion in the American South.",
+    "totalPages": 281,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": ["Classic", "American Literature", "Social Issues"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "id": 2,
+    "name": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co/ZNG4Npw/360-F-492881946-5-G61-VWkjo-Gt-RK9-KTZYTl-JTsb4-VF5y-Mo2-removebg-preview.png",
+    "review": "A dystopian masterpiece that warns against totalitarianism and surveillance, with chilling relevance to modern society.",
+    "totalPages": 328,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": ["Dystopian", "Political Satire", "Philosophy"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "id": 3,
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/qgxtKyK/great-gatsby-a-novel-by-f-scott-fitzgerald-DAXYE5-removebg-preview.png",
+    "review": "A tragic tale of love, wealth, and the American Dream set in the opulent Jazz Age, filled with vivid characters and beautiful prose.",
+    "totalPages": 180,
+    "rating": 4.4,
+    "category": "Fiction",
+    "tags": ["Classic", "Roaring Twenties", "Romance"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "id": 4,
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://i.ibb.co/8Kg7vPM/images-removebg-preview.png",
+    "review": "A delightful romantic comedy that cleverly satirizes the societal norms of early 19th-century England, with memorable characters and witty dialogue.",
+    "totalPages": 279,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Classic", "Romance", "Regency Era"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  },
+  {
+    "id": 5,
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co/kxnNfc3/518d-VCGFuh-L-SY445-SX342.jpg",
+    "review": "A poignant coming-of-age story that captures the disillusionment and alienation of adolescence, resonating with readers for generations.",
+    "totalPages": 224,
+    "rating": 4.2,
+    "category": "Fiction",
+    "tags": ["Coming-of-Age", "American Literature", "Identity"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "id": 6,
+    "name": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "image": "https://i.ibb.co/syHB7FJ/5511949b669e46dc86b6a48e86df4993-removebg-preview.png",
+    "review": "A captivating fantasy adventure that introduces readers to the enchanting world of Hogwarts School of Witchcraft and Wizardry, brimming with magic and imagination.",
+    "totalPages": 332,
+    "rating": 4.7,
+    "category": "Fantasy",
+    "tags": ["Magic", "Children's Literature", "Adventure"],
+    "publisher": "Bloomsbury Publishing",
+    "yearOfPublishing": 1997
+  }
+]
