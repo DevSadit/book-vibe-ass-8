@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "To Kill a Mockingbird",
+    "name": "The Dating PlayBook for Men",
     "author": "Harper Lee",
     "image": "https://s3-alpha-sig.figma.com/img/093f/28a2/713be2009ed5e0a38a726ba628d93944?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Y7k7kDgqZxPs8qerQCxbihcD-330NENI6lJnSrtKKKck1-Wu8Dptn2j276b3AdZNhqNHfY1dzN263aqzm6q1u4K9hK0V2JSmJdZ1b7wiUEN03JvGwWtUyV~T55bCFqKTr6nRIv05AgtB8ma-fBy5cdK0OGcKCwWTqPv7Dw7bEohyvWFEv3X8twqfAhojEOE~WpzbqcLaxeXfLiQThwUhKtSb4OIJPnnHgWY2D-VqiPHKtcRmJEEeXkvLW~u3opbaEwP~Pv7x3hSyb3x5yuTtzf2nTyRcNDRVcVJ1RhdAKxbBLYQ2XtL8Ep3Pt29jCwuPG~fhQimqFwk4fzkCdvnGjg__",
     "review": "A timeless classic that explores themes of racial injustice, morality, and compassion in the American South.",
@@ -66,9 +66,9 @@
   },
   {
     "id": 6,
-    "name": "Harry Potter and the Philosopher's Stone",
+    "name": "Pride and Predujice",
     "author": "J.K. Rowling",
-    "image": "https://s3-alpha-sig.figma.com/img/871b/ca48/d3c7344e22a9684793d7a7fb662caac7?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=H4I~HRxSynVmMs0Mbz3sd56ulPg9iyYDsiHhvNqBC5A1u5OEZaXZz8FSin~yCi~6zCpbpnOjS8RpN-1FeIsG2xxN~niwGK2-1HEUvsyvdvsL~KWeixgli5QUNdaFNJCeL7oeyNPuTm2j0IMm9OcT~v7whdYAj1yM7DSxzA1b2WNDLNq~lTBJOgcM1kaoW17PuCrvNznc1eDS0~729OS6MwS-3T9pC385-iCveA8nCgsuXdSmV6uggbr9RsAVbOp2withcqdMIksEiM~JWdpL9Ph7h0ungLdw5d5~1J67UEwyWO4TS7ElKtxR9Zh~gH9KVgORH6ECWHOiwNQH0M-ZsQ__",
+    "image": "https://i.ibb.co/8Kg7vPM/images-removebg-preview.png",
     "review": "A captivating fantasy adventure that introduces readers to the enchanting world of Hogwarts School of Witchcraft and Wizardry, brimming with magic and imagination.",
     "totalPages": 332,
     "rating": 4.7,

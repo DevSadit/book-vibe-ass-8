@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ListedBooks from './ListedBooks/ListedBooks';
 import PagesToRead from './PagesToRead/PagesToRead';
 import Home from './Home/Home';
+import BookDetails from './Books/BookDetails';
 
 
 const router = createBrowserRouter([
@@ -21,10 +22,16 @@ const router = createBrowserRouter([
       {
         path: "/listedbooks",
         element: <ListedBooks></ListedBooks>,
+        loader: () => fetch(`bookdata.json`),
       },
       {
         path: "/pagestoread",
         element: <PagesToRead></PagesToRead>,
+      },
+      {
+        path: "/bookdetails/:id",
+        element: <BookDetails></BookDetails>,
+        loader: () => fetch(`bookdata.json`),
       },
     ],
   },
