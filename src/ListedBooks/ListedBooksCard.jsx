@@ -12,8 +12,8 @@ const ListedBooksCard = () => {
   }, []);
   return (
     <div className="flex flex-col ">
-      <details className="dropdown self-end mx-32">
-        <summary className="m-1 btn">open or close</summary>
+      <details className="dropdown self-end mx-32 ">
+        <summary className="m-1 btn bg-[#23BE0A]">open or close</summary>
         <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
           <li>
             <a>Item 1</a>

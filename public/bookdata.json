@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "1984",
-    "author": "George Orwell",
+    "author": "Why Do You Hate Money",
     "image": "https://s3-alpha-sig.figma.com/img/986a/21a1/fdd0e218554fda4443af36899ee3aa12?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XPe8KBhm2O5w1V29d64n9uc2nbuFvwyBTe5JAiWrPClFcWFckaKP81JW1jP8lzSwS4AW0KEfStNRJ9UZUJjWsVQxXNj72GqHFWZdBgpaXNHz4ICCWizaVnUYkOI1b-tB~iDBUypv0MQsvOM4y4aDmF4X-BjgjCU2UBe7I3CtaIg9Jdq7r3vpb6FCeEaop~lLaNiplM7uWx9sTjzxPu8b0TtzJXsy8zerGATQID~hkmJVNIFjTgtC2~LnaB9D80PaTQHWmEjEeZfZIz1KBmm41oOXX8hx2~xSfM2enbvGjSTodRjWI~Qy5oPNUdQnbBwtfnzTk72N9vk2cRU-NDmPPw__",
     "review": "A dystopian masterpiece that warns against totalitarianism and surveillance, with chilling relevance to modern society.",
     "totalPages": 328,
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "name": "The Great Gatsby",
+    "name": "The Hate U Give",
     "author": "F. Scott Fitzgerald",
     "image": "https://s3-alpha-sig.figma.com/img/6fbe/3ef5/ce3004447af28acdb8c6fce01bf120bd?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MIETSEPaHaVSTP21~IsCoxRpnYkJoIquU58HSKWLYDbYCh9MUmQTGapfJI7Z6jJe6s2-i3br-bMiwWFej1BC57nErU3XpZOhdWkjt4npSf~YyCuvN1ttf824lHY2Q~OB8mN28vADlhwp~rK6kB2~Kjqyhddx-SS3nq0mgbhpl5MLHw7iatJXdVnFPn9foUSTN8S2qa33t1MRWB6UI6CxYxCqw2q4IX-eHDTkArfTwh4ITt48jY~8wHaqEMPVjSQaG8fWLDhDmaqyAzI4qOB4yqIrjZN2b76mQ6Afq0NL1E9wNIrzFusTYQihiVI9LwrG3s~3K9m~B~K9BtL9yAiNGA__",
     "review": "A tragic tale of love, wealth, and the American Dream set in the opulent Jazz Age, filled with vivid characters and beautiful prose.",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "name": "Pride and Prejudice",
+    "name": "Scolarship Monthly Planner",
     "author": "Jane Austen",
     "image": "https://s3-alpha-sig.figma.com/img/e508/e55b/9d64556d757ca419326dbb22159ff2ae?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BqFF0mqeAwQE3ziCeIUv4V~MzqNjTm5~puU2kfE8KaRUp-J3DEoHoLKJGrDO5eqtEr662irXZwepj9sgFmsNeT0nnpoQQieDAlX9y7ZOWfTiTrvKmERg27OD5ZIcjqkyoSBCR0NuWhp6wR7qkMZ7qJMgSj42dAMU7FRAyA5E0IANf4iIe3psjEneuYrPeYP~qF-FBVEjzxkNvtEF0Q0d1SVAXf-VTUcbdL3yDWUjD7ikFsucGKQln7ury4Z8iSE0fjqUJWTp3LitQaaQA6D4bkPhHYO4QgdG7Iwysny~mKDBP99zFS8JXtP-829re7iPN-HNz40FqIlxRgEic1JuwA__",
     "review": "A delightful romantic comedy that cleverly satirizes the societal norms of early 19th-century England, with memorable characters and witty dialogue.",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "name": "The Catcher in the Rye",
+    "name": "Annoted Texas Family Code",
     "author": "J.D. Salinger",
     "image": "https://s3-alpha-sig.figma.com/img/c448/160f/4f3957e8f023d8d60bae77fda6c15279?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MwMigwpob5i8wYGEeiENgb91KlG0braPSo19EDazhhMYvyWdL1fc1T2fAG9r-VGV8mQObhV5C4KRlBHPy8C0yxQu7S2V5mbRDo5Ja87kOL60t3XkvdiG~KBDH8m3roXsg-Y2HOizdEsRRnmiinMC8XwLrWXFT-pt-bmfkOuPSi8OXp6SM3qPFObVhQocnZECtg89U2amw0Tu6My~eHj5Urf2WfatURAZQHxZ5B-QYiUfut3lZgmxlBrGpBt9inMfBxhXqhVQcTb3XxjdbCJqHHPsvMji-iIsg77KCmxDWTEcCGgj1arLyMbrZeLA8vrIXmqDYSoo1c4eBpy1vf9zWQ__",
     "review": "A poignant coming-of-age story that captures the disillusionment and alienation of adolescence, resonating with readers for generations.",

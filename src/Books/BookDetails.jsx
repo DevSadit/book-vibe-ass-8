@@ -8,6 +8,7 @@ const BookDetails = () => {
   const intId = parseInt(id);
   const bookData = books.find((book) => book.id === intId);
   const {
+    tags,
     name,
     author,
     image,
@@ -52,39 +53,49 @@ const BookDetails = () => {
   };
 
   return (
-    <div className="flex items-center justify-between lg:mx-32 lg:mt-12">
-      <div className=" bg-gray-200  p-10 rounded-lg">
-        <img src={image} className="w-44 mx-auto" />
+    <div className="flex items-center justify-between lg:mx-32 lg:mt-12 ">
+      <div className=" bg-gray-200  p-16 rounded-lg">
+        <img src={image} className="md:w-80 mx-auto" />
       </div>
-      <div className="">
-        <h1>{name}</h1>
-        <p>By: {author}</p>
+      <div className="md:space-y-6">
+        <h1 className="font-bold text-4xl">{name}</h1>
+        <p className="font-medium text-xl">By: {author}</p>
         <hr />
-        <h5>{category}</h5>
+        <h5 className="font-medium text-xl">{category}</h5>
         <hr />
         <p>
-          <bold>Review:</bold>
-          {review}
+          <strong>Review:</strong>
+          <span className="text-[#131313B2]">{review}</span>
         </p>
-        <div>
-          <p>Tag</p>
+        <div className="flex gap-x-4 items-center">
+          <p className="font-bold">Tag</p>
+          <div className="flex gap-x-4">
+            {tags.map((tag, i) => (
+              <h5
+                className="text-[#23BE0A] font-medium bg-[#23BE0D0D] rounded-full px-4 py-2"
+                key={i}
+              >
+                {tag}
+              </h5>
+            ))}
+          </div>
         </div>
         <hr />
-        <div>
-          <div>
-            <p>Number of Pages:</p>
+        <div className="md:space-y-3">
+          <div className="flex justify-between">
+            <p className="font-bold">Number of Pages:</p>
             <p>{totalPages}</p>
           </div>
-          <div>
-            <p>Publisher:</p>
+          <div className="flex justify-between">
+            <p className="font-bold">Publisher:</p>
             <p>{publisher}</p>
           </div>
-          <div>
-            <p>Year of Publishing:</p>
+          <div className="flex justify-between">
+            <p className="font-bold">Year of Publishing:</p>
             <p>{yearOfPublishing}</p>
           </div>
-          <div>
-            <p>Rating:</p>
+          <div className="flex justify-between">
+            <p className="font-bold">Rating:</p>
             <p>{rating}</p>
           </div>
         </div>
