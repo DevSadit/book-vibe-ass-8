@@ -1,18 +1,22 @@
-import { IoLocationOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
+import { IoLocationOutline } from "react-icons/io5";
 import { MdMenuBook } from "react-icons/md";
 import PropTypes from "prop-types";
-const SingleBookCard = ({ book }) => {
-  const {
-    author,
-    name,
-    yearOfPublishing,
-    publisher,
-    totalPages,
-    category,
-    image,
-    rating,
-  } = book;
+
+const SingleWishBook = ({ book }) => {
+
+      const {
+        author,
+        name,
+        yearOfPublishing,
+        publisher,
+        totalPages,
+        category,
+        image,
+        rating,
+      } = book;
+
+
   return (
     <div className="flex justify-between border rounded-lg p-3 mx-32 mb-4">
       <div className="">
@@ -49,8 +53,8 @@ const SingleBookCard = ({ book }) => {
   );
 };
 
-SingleBookCard.propTypes={
-  book: PropTypes.object,
-}
 
-export default SingleBookCard;
+SingleWishBook.propTypes = {
+  book: PropTypes.object,
+};
+export default SingleWishBook;

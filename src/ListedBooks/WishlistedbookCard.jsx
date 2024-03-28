@@ -1,21 +1,23 @@
 import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import { getWishBooks } from "../Utility/LsWishlist";
+
+import SingleWishBook from "./SingleWishBook";
 
 const WishlistedbookCard = () => {
-    const books = useLoaderData();
     const [wishBooks, setWishBooks] = useState([]);
     useEffect(()=>{
-        const storeWishBooksIds = getWishBooks();
-        if(books.length){
-            const bookWish =[];
-            
-
-        }
+      const storedWishBooks =
+        JSON.parse(localStorage.getItem("books_wish")) || [];
+        setWishBooks(storedWishBooks);
     },[])
     return (
       <div>
-        <h1>ami wishlist</h1>
+        {
+          wishBooks.map((book, i)=>
+          <SingleWishBook 
+          key={i} 
+          book={book}></SingleWishBook>)
+        }
+          
       </div>
     );
 };
