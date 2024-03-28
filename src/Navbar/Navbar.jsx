@@ -25,16 +25,68 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Listed Books</a>
-            </li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "rounded-lg text-[#23BE0A] border border-[#23BE0A] font-semibold"
+                  : ""
+              }
+            >
+              <li>
+                <a>Home</a>
+              </li>
+            </NavLink>
+            <NavLink
+              to="/listedbooks"
+              className={({ isActive }) =>
+                isActive
+                  ? "rounded-lg text-[#23BE0A] border border-[#23BE0A] font-semibold"
+                  : ""
+              }
+            >
+              <li>
+                <a>Listed Books</a>
+              </li>
+            </NavLink>
+            <NavLink
+              to="/pagestoread"
+              className={({ isActive }) =>
+                isActive
+                  ? "rounded-lg text-[#23BE0A] border border-[#23BE0A] font-semibold"
+                  : ""
+              }
+            >
+              <li>
+                <a>Pages to Read</a>
+              </li>
+            </NavLink>
 
-            <li>
-              <a>Pages to Read</a>
-            </li>
+            <NavLink
+              to="/aboutus"
+              className={({ isActive }) =>
+                isActive
+                  ? "rounded-lg text-[#23BE0A] border border-[#23BE0A] font-semibold"
+                  : ""
+              }
+            >
+              <li>
+                <a>About Us</a>
+              </li>
+            </NavLink>
+
+            <NavLink
+              to="/contactus"
+              className={({ isActive }) =>
+                isActive
+                  ? "rounded-lg text-[#23BE0A] border border-[#23BE0A] font-semibold"
+                  : ""
+              }
+            >
+              <li>
+                <a>Contact Us</a>
+              </li>
+            </NavLink>
           </ul>
         </div>
         <a className="btn btn-ghost p-1 font-bold text-3xl">Book Vibe</a>
@@ -75,6 +127,32 @@ const Navbar = () => {
           >
             <li>
               <a>Pages to Read</a>
+            </li>
+          </NavLink>
+
+          <NavLink
+            to="/aboutus"
+            className={({ isActive }) =>
+              isActive
+                ? "rounded-lg text-[#23BE0A] border border-[#23BE0A] font-semibold"
+                : ""
+            }
+          >
+            <li>
+              <a>About Us</a>
+            </li>
+          </NavLink>
+
+          <NavLink
+            to="/contactus"
+            className={({ isActive }) =>
+              isActive
+                ? "rounded-lg text-[#23BE0A] border border-[#23BE0A] font-semibold"
+                : ""
+            }
+          >
+            <li>
+              <a>Contact Us</a>
             </li>
           </NavLink>
         </ul>
