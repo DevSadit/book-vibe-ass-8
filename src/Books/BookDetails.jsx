@@ -1,24 +1,12 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { saveReadBooks } from "../Utility/LsRead";
-import { saveWishBooks } from "../Utility/LsWishlist";
 
 const BookDetails = () => {
-  const handleRead = () => {
-    saveReadBooks(intId);
-    toast(`Book Added to Read Books List`);
-  };
-
-  const handleWish = () => {
-    saveWishBooks(intId);
-    toast(`Book Added to Wishlist`);
-  };
-
   const books = useLoaderData();
   const { id } = useParams();
   const intId = parseInt(id);
-  const book = books.find((book) => book.id === intId);
+  const bookData = books.find((book) => book.id === intId);
   const {
     name,
     author,
@@ -29,7 +17,40 @@ const BookDetails = () => {
     category,
     publisher,
     yearOfPublishing,
-  } = book;
+  } = bookData;
+
+  const handleRead = () => {
+    const storedReadBooks =
+      JSON.parse(localStorage.getItem("books_read")) || [];
+    const isBooks = storedReadBooks.find(book => book.id === intId);
+    if(isBooks){
+      toast.warn(`Book is Already Read!`)
+    } else {
+      storedReadBooks.push(bookData);
+      localStorage.setItem(`books_read`, JSON.stringify(storedReadBooks))
+      toast.success(`Book succesfully added!`)
+    }
+  };
+
+  const handleWish = () => {
+    const storedReadBooks = JSON.parse(localStorage.getItem("books_read")) || [];
+  const storedWishlistBooks = JSON.parse(localStorage.getItem("books_wish")) || [];
+      const isBook = storedReadBooks.find(book => book.id === intId);
+      if(isBook){
+        toast(`Book is Already Added to Read List!`);
+      } else{
+        const isWishBooks = storedWishlistBooks.find(book => book.id === intId)
+        if(isWishBooks){
+          toast.warn(`Book already Added to Readlist`);
+
+        } else {
+          storedWishlistBooks.push(bookData);
+          localStorage.setItem(`books_wish`, JSON.stringify(storedWishlistBooks));
+          toast.success(`book succesfully added to wishlist!`)
+        }
+      }
+  };
+
   return (
     <div className="flex items-center justify-between lg:mx-32 lg:mt-12">
       <div className="border bg-gray-200  p-10 rounded-lg">
@@ -72,10 +93,9 @@ const BookDetails = () => {
             Read
           </button>
 
-            <button onClick={handleWish} className="btn btn-primary">
-              Wishlist
-            </button>
-
+          <button onClick={handleWish} className="btn btn-primary">
+            Wishlist
+          </button>
         </div>
       </div>
 
