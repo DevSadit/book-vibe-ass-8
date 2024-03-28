@@ -53,10 +53,10 @@ const BookDetails = () => {
 
   return (
     <div className="flex items-center justify-between lg:mx-32 lg:mt-12">
-      <div className="border bg-gray-200  p-10 rounded-lg">
-        <img src={image} className="w-96 mx-auto" />
+      <div className=" bg-gray-200  p-10 rounded-lg">
+        <img src={image} className="w-44 mx-auto" />
       </div>
-      <div className="border">
+      <div className="">
         <h1>{name}</h1>
         <p>By: {author}</p>
         <hr />
@@ -89,11 +89,14 @@ const BookDetails = () => {
           </div>
         </div>
         <div className="space-x-4">
-          <button onClick={handleRead} className="btn btn-primary">
+          <button
+            onClick={handleRead}
+            className="btn bg-none border border-gray-300"
+          >
             Read
           </button>
 
-          <button onClick={handleWish} className="btn btn-primary">
+          <button onClick={handleWish} className="btn bg-[#50B1C9] text-white">
             Wishlist
           </button>
         </div>

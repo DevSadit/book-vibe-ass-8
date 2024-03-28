@@ -8,7 +8,7 @@
     "totalPages": 281,
     "rating": 4.5,
     "category": "Fiction",
-    "tags": ["Classic", "American Literature", "Social Issues"],
+    "tags": ["American Literature", "Social Issues"],
     "publisher": "J. B. Lippincott & Co.",
     "yearOfPublishing": 1960
   },
@@ -21,7 +21,7 @@
     "totalPages": 328,
     "rating": 4.6,
     "category": "Fiction",
-    "tags": ["Dystopian", "Political Satire", "Philosophy"],
+    "tags": ["Dystopian", "Political Satire"],
     "publisher": "Secker & Warburg",
     "yearOfPublishing": 1949
   },
@@ -34,7 +34,7 @@
     "totalPages": 180,
     "rating": 4.4,
     "category": "Fiction",
-    "tags": ["Classic", "Roaring Twenties", "Romance"],
+    "tags": ["Classic"],
     "publisher": "Charles Scribner's Sons",
     "yearOfPublishing": 1925
   },
@@ -47,7 +47,7 @@
     "totalPages": 279,
     "rating": 4.3,
     "category": "Fiction",
-    "tags": ["Classic", "Romance", "Regency Era"],
+    "tags": ["Classic"],
     "publisher": "T. Egerton, Whitehall",
     "yearOfPublishing": 1813
   },
@@ -60,7 +60,7 @@
     "totalPages": 224,
     "rating": 4.2,
     "category": "Fiction",
-    "tags": ["Coming-of-Age", "American Literature", "Identity"],
+    "tags": ["Coming-of-Age", "American Literature"],
     "publisher": "Little, Brown and Company",
     "yearOfPublishing": 1951
   },
@@ -73,7 +73,7 @@
     "totalPages": 332,
     "rating": 4.7,
     "category": "Fantasy",
-    "tags": ["Magic", "Children's Literature", "Adventure"],
+    "tags": ["Magic"],
     "publisher": "Bloomsbury Publishing",
     "yearOfPublishing": 1997
   }

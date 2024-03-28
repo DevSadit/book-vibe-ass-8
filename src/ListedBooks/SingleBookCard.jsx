@@ -2,8 +2,10 @@ import { IoLocationOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import { MdMenuBook } from "react-icons/md";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 const SingleBookCard = ({ book }) => {
   const {
+    id,
     author,
     name,
     yearOfPublishing,
@@ -42,7 +44,9 @@ const SingleBookCard = ({ book }) => {
         <div className="flex gap-x-5 items-center">
           <h5>Category: {category}</h5>
           <h5>Rating: {rating}</h5>
-          <button className="btn">View Details</button>
+          <Link to={`/bookdetails/${id}`}>
+            <button className="btn">View Details</button>
+          </Link>
         </div>
       </div>
     </div>

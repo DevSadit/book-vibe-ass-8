@@ -46,7 +46,6 @@ const router = createBrowserRouter([
       {
         path: "/pagestoread",
         element: <PagesToRead></PagesToRead>,
-        errorElement: <ErrorElement></ErrorElement>,
       },
       {
         path: "/aboutus",
